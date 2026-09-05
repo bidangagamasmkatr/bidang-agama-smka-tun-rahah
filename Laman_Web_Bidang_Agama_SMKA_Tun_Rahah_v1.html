@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bidang Agama | SMKA Tun Rahah</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f4f7f7;
+  color:#334155;
+  line-height:1.6;
+}
+.hero{
+  background:linear-gradient(135deg,#0f766e,#14b8a6);
+  color:white;
+  padding:48px 20px 70px;
+  text-align:center;
+}
+.badge{
+  display:inline-block;
+  background:rgba(255,255,255,.18);
+  padding:7px 16px;
+  border-radius:30px;
+  font-size:14px;
+  margin-bottom:18px;
+}
+.hero h1{font-size:clamp(30px,5vw,48px);margin-bottom:8px}
+.hero h2{font-size:clamp(19px,3vw,27px);font-weight:500;margin-bottom:12px}
+.hero p{max-width:680px;margin:auto;font-size:16px;opacity:.94}
+.container{max-width:1100px;margin:-35px auto 50px;padding:0 20px;position:relative}
+.welcome{
+  background:white;border-radius:20px;padding:25px;
+  box-shadow:0 10px 30px rgba(15,118,110,.12);
+  margin-bottom:25px;text-align:center;
+}
+.welcome h3{color:#0f766e;margin-bottom:5px}
+.grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;
+}
+.card{
+  background:white;border-radius:18px;padding:24px;
+  text-decoration:none;color:#334155;
+  box-shadow:0 5px 20px rgba(15,23,42,.07);
+  border:1px solid #e5eeee;
+  transition:.2s;display:block;
+}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 25px rgba(15,118,110,.14)}
+.icon{font-size:32px;margin-bottom:12px}
+.card h4{color:#0f766e;font-size:18px;margin-bottom:5px}
+.card p{font-size:14px;color:#64748b}
+.section-title{text-align:center;margin:38px 0 18px;color:#475569}
+.footer{
+  background:#334155;color:#e2e8f0;text-align:center;padding:25px 20px;
+  font-size:13px;
+}
+@media(max-width:600px){
+ .hero{padding-top:35px}
+ .container{padding:0 14px}
+ .card{padding:20px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="badge">🌷 SMKA TUN RAHAH</div>
+  <h1>BIDANG AGAMA</h1>
+  <h2>Pengurusan • Akademik • Sahsiah</h2>
+  <p>Portal maklumat dan pengurusan Bidang Agama SMKA Tun Rahah.</p>
+</header>
+
+<main class="container">
+  <section class="welcome">
+    <h3>Assalamualaikum & Selamat Datang</h3>
+    <p>Selamat datang ke laman web rasmi Bidang Agama SMKA Tun Rahah.</p>
+  </section>
+
+  <div class="grid">
+    <a class="card" href="#">
+      <div class="icon">🏫</div>
+      <h4>Pengurusan Bidang Agama</h4>
+      <p>Maklumat pengurusan, perancangan dan program bidang.</p>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📚</div>
+      <h4>Panitia</h4>
+      <p>Bahasa Arab, PQS, PSI, Pendidikan Islam dan KKQ.</p>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🌷</div>
+      <h4>Pengurusan Sahsiah</h4>
+      <p>SUMUR, BADAR dan pengurusan surau.</p>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📊</div>
+      <h4>Analisis Akademik</h4>
+      <p>Semakan prestasi dan analisis akademik murid.</p>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📅</div>
+      <h4>Program & Takwim</h4>
+      <p>Perancangan aktiviti dan takwim Bidang Agama.</p>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📁</div>
+      <h4>Dokumentasi & Arkib</h4>
+      <p>Akses dokumen, OPR dan bahan dokumentasi.</p>
+    </a>
+  </div>
+</main>
+
+<footer class="footer">
+  © 2026 Bidang Agama · SMKA Tun Rahah
+</footer>
+
+</body>
+</html>
